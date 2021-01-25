@@ -1,11 +1,7 @@
 public class BonusMilesService {
     public long calculate(int cost) {
-        BonusMilesService service = new BonusMilesService();
-        int price = 10_000;
-
+        int price = 40;
         long miles = cost / price;
-
-
         return miles;
     }
 }
